@@ -1,0 +1,83 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+type: software
+
+title: "Explainable Anomaly Detection for Polymer Extrusion Processes"
+version: 2.0.0
+date-released: "2026-02-20"
+license: MIT
+url: "https://github.com/krishnamalladi/extrusion-anomaly-detection"
+
+abstract: >
+  A real-time interactive prototype for explainable multivariate statistical
+  process control (MSPC) applied to cable insulation polymer extrusion lines.
+  The system implements Shewhart univariate control charts, Hotelling T²
+  multivariate monitoring, T² decomposition contribution analysis, 
+  Reconstruction-Based Contribution (RBC) fault isolation, a process state
+  radar visualization, and a cosine-similarity fault diagnosis engine that
+  maps observed contribution patterns to a library of named extrusion failure
+  modes with root cause mechanisms and corrective action guidance.
+
+authors:
+  - family-names: "Malladi"
+    given-names: "Krishna"
+    country: IN
+    affiliation: "Independent Researcher; Subhala Insurance / Bajaj Allianz, Telangana, India"
+
+keywords:
+  - statistical process control
+  - multivariate process monitoring
+  - anomaly detection
+  - fault diagnosis
+  - explainable AI
+  - polymer extrusion
+  - cable manufacturing
+  - Hotelling T-squared
+  - contribution plots
+  - Industry 4.0
+
+references:
+  - type: article
+    title: "Decomposition of T2 for Multivariate Control Chart Interpretation"
+    authors:
+      - family-names: "Mason"
+        given-names: "R.L."
+      - family-names: "Tracy"
+        given-names: "N.D."
+      - family-names: "Young"
+        given-names: "J.C."
+    journal: "Journal of Quality Technology"
+    volume: 27
+    issue: 2
+    pages: "99-108"
+    year: 1995
+
+  - type: article
+    title: "Reconstruction-Based Contribution for Process Monitoring"
+    authors:
+      - family-names: "Alcala"
+        given-names: "C.F."
+      - family-names: "Qin"
+        given-names: "S.J."
+    journal: "Automatica"
+    volume: 45
+    issue: 7
+    pages: "1593-1600"
+    year: 2009
+
+  - type: article
+    title: "A Multivariate Exponentially Weighted Moving Average Control Chart"
+    authors:
+      - family-names: "Lowry"
+        given-names: "C.A."
+      - family-names: "Woodall"
+        given-names: "W.H."
+      - family-names: "Champ"
+        given-names: "C.W."
+      - family-names: "Rigdon"
+        given-names: "S.E."
+    journal: "Technometrics"
+    volume: 34
+    issue: 1
+    pages: "46-53"
+    year: 1992
